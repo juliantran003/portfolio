@@ -157,7 +157,8 @@ body {
   text-decoration: none;
 }
 
-.burgerMenu__menu a {
+.burgerMenu__menu a,
+.burgerMenu__menu__hidden a {
   color: var(--clr--primary);
   transition: ease-in-out, 0.1s;
   text-decoration: none;
@@ -165,23 +166,13 @@ body {
   text-transform: capitalize;
 }
 
-.burgerMenu__menu a:hover {
+.burgerMenu__menu a:hover,
+.burgerMenu__menu__hidden a:hover {
   color: var(--clr--txt--secondary);
 }
 
+.burgerMenu__menu,
 .burgerMenu__menu__hidden {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  position: fixed;
-  top: 0%;
-  right: -100%;
-  transition: ease-in-out, 0.2s;
-  height: 100vh;
-}
-
-.burgerMenu__menu {
   color: var(--clr--primary);
   height: 100vh;
   display: flex;
@@ -196,6 +187,10 @@ body {
   background-color: white;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+.burgerMenu__menu__hidden {
+  right: -100%;
 }
 
 .burgerMenu__x {
