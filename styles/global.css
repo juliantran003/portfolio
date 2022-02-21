@@ -185,8 +185,7 @@ body {
   transition: ease-in-out, 0.2s;
   padding: 0 10%;
   background-color: white;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
+  width: 100%;
 }
 
 .burgerMenu__menu__hidden {
