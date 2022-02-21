@@ -261,7 +261,7 @@ body {
     display: none;
   }
   .home {
-    height: 100vh;
+    height: 80vh;
     padding: 5%0%;
   }
   .home__hello h1 {
