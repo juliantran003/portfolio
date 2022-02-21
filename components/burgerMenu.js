@@ -9,13 +9,13 @@ export default function BurgerMenu() {
     <>
       {burger && (
         <nav className="burgerMenu">
-          <i class="fa-solid fa-bars" onClick={() => setBurger(false)}></i>
+          <i className="fa-solid fa-bars" onClick={() => setBurger(false)}></i>
         </nav>
       )}
       <nav className={burger ? "burgerMenu__menu__hidden" : "burgerMenu__menu"}>
         {!burger && (
           <i
-            class="fa-solid fa-xmark burgerMenu__x"
+            className="fa-solid fa-xmark burgerMenu__x"
             onClick={() => setBurger(true)}
           ></i>
         )}

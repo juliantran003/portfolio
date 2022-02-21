@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Script from "next/script";
 
 // Components
 import Header from "./header";
@@ -9,12 +9,11 @@ import BurgerMenu from "./burgerMenu";
 export default function Layout({ children }) {
   return (
     <>
-      <Head>
-        <script
-          src="https://kit.fontawesome.com/fe9e3b2e41.js"
-          crossorigin="anonymous"
-        ></script>
-      </Head>
+      <Script
+        src="https://kit.fontawesome.com/fe9e3b2e41.js"
+        crossOrigin="anonymous"
+      />
+
       <Header />
       <Socials />
       <BurgerMenu />

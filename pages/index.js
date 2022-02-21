@@ -13,7 +13,7 @@ export default function Home() {
           <br /> I prefer to work freelance but am always open to new
           opportunities.
         </p>
-        <Link href="/about">
+        <Link href="/about" passHref>
           <button className="btn-classic"> Contact Me</button>
         </Link>
       </div>
