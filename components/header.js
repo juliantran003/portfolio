@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="header">
+    <header className="header" data-aos="fade-down">
       <Link href="/">Julian Tran</Link>
       <nav className="header__menu">
         <Link href="/about">about</Link>
