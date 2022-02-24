@@ -1,14 +1,14 @@
 import Image from "next/image";
-import profile from "../images/profile.jpeg";
+import profile from "../public/images/profile.jpeg";
 import Link from "next/link";
 
 // Logos
-import react from "../images/logos/react.png";
-import nextjs from "../images/logos/nextjs.png";
-import nodejs from "../images/logos/nodejs.png";
-import javascript from "../images/logos/javascript.png";
-import html from "../images/logos/html.png";
-import css from "../images/logos/css.png";
+import react from "../public/images/logos/react.png";
+import nextjs from "../public/images/logos/nextjs.png";
+import nodejs from "../public/images/logos/nodejs.png";
+import javascript from "../public/images/logos/javascript.png";
+import html from "../public/images/logos/html.png";
+import css from "../public/images/logos/css.png";
 
 export default function About() {
   // Function to find current Age
@@ -22,6 +22,7 @@ export default function About() {
     }
     return age;
   }
+
   return (
     <section className="about">
       <div className="about__description">

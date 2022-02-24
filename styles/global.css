@@ -427,6 +427,7 @@ body {
   padding: 20px;
   width: 80%;
   border: solid 1px var(--clr--secondary);
+  overflow: hidden;
 }
 
 .experience__description p {
