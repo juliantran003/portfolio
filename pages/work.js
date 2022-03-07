@@ -56,17 +56,28 @@ export default function Work() {
                 data-aos={`fade-${findPlacement(index)}`}
                 data-aos-delay={150}
               >
-                <a href={work.link} target="_blank" className="btn-classic">
+                <a
+                  href={work.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn-classic"
+                >
                   View
                 </a>
-                <a href={work.repo} className="btn-classic" target="_blank">
+                <a
+                  href={work.repo}
+                  className="btn-classic"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa-brands fa-github"></i>
                 </a>
               </div>
               <div className={`work__img__${findPlacement(index)}`}>
-                <a href={work.link} target="_blank">
+                <a href={work.link} target="_blank" rel="noreferrer">
                   <Image
                     src={work.image}
+                    alt={work.image}
                     height={work.height}
                     width={work.width}
                     layout="responsive"

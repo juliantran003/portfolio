@@ -71,6 +71,7 @@ export default function Experience() {
                     target="_blank"
                     data-aos="fade-up"
                     data-aos-delay={400}
+                    rel="noreferrer"
                   >
                     {experience.linkName}
                   </a>

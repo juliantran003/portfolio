@@ -24,50 +24,50 @@ export default function Contact() {
       </h1>
       <form action="" className="contact__form">
         <div className="contact__user">
-          <label for="email" data-aos="fade-right" data-aos-delay={0}>
+          <label htmlFor="email" data-aos="fade-right" data-aos-delay={0}>
             Email
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              tabindex="1"
+              tabIndex="1"
             />
           </label>
-          <label for="name" data-aos="fade-right" data-aos-delay={50}>
+          <label htmlFor="name" data-aos="fade-right" data-aos-delay={50}>
             Name
             <input
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              tabindex="2"
+              tabIndex="2"
             />
           </label>
-          <label for="subject" data-aos="fade-right" data-aos-delay={100}>
+          <label htmlFor="subject" data-aos="fade-right" data-aos-delay={100}>
             Subject
             <input
               type="text"
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
-              tabindex="3"
+              tabIndex="3"
             />
           </label>
         </div>
         <div className="contact__message">
           {" "}
-          <label for="message" data-aos="fade-left" data-aos-delay={50}>
+          <label htmlFor="message" data-aos="fade-left" data-aos-delay={50}>
             Your Message
             <textarea
               type="text"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              tabindex="4"
+              tabIndex="4"
             />
           </label>
         </div>
       </form>
       <button
         className="contact__btn"
-        tabindex="5"
+        tabIndex="5"
         data-aos="fade-up"
         data-aos-delay={100}
       >
