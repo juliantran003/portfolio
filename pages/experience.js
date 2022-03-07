@@ -1,5 +1,7 @@
+// Pafckages
 import { useState } from "react";
-import experience from "../json/experience.json";
+// Info
+import experience from "../public/json/experience.json";
 
 export default function Experience() {
   // States
@@ -12,15 +14,19 @@ export default function Experience() {
       </h1>
       <div className="experience__container">
         <ul className="experience__selector" data-aos="fade-right">
-          <li
-            className="experience__selected"
-            onClick={() => setSelected("itrsq")}
-          >
-            ITRSQ
-          </li>
-          <li onClick={() => setSelected("summit")}>Summit</li>
-          <li onClick={() => setSelected("lereacteur")}>Le Réacteur</li>
-          <li onClick={() => setSelected("selfpractice")}>Self-Practice</li>
+          {experience.map((experience) => {
+            return (
+              <li
+                key={experience.selected}
+                onClick={() => setSelected(experience.selected)}
+                className={
+                  selected === experience.selected && "experience__selected"
+                }
+              >
+                {experience.company}
+              </li>
+            );
+          })}
         </ul>
 
         <div className="experience__description" data-aos="fade-left">
@@ -59,6 +65,15 @@ export default function Experience() {
                   >
                     {experience.skills}
                   </h3>
+                  <a
+                    className="btn-classic"
+                    href={experience.link}
+                    target="_blank"
+                    data-aos="fade-up"
+                    data-aos-delay={400}
+                  >
+                    {experience.linkName}
+                  </a>
                 </>
               )
             );

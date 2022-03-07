@@ -1,0 +1,34 @@
+[
+    {
+        "selected":"itrsq",
+        "company":"ITRSQ",
+        "duration": "June 2021 to June 2022",
+        "role": "Full Stack Developer & Team Leader",
+        "description": "ITRSQ was my first employment after graduating from Le Réacteur and where I have acquired most of my experience. Since the company had just been founded and as the only developer there, I had full responsibility for creating websites, databases and servers. \r\n As the company grew and we hired more developers, Team Leader was added to my responsibilities. While it certainly wasn't a conventional junior developer experience it was perfect for me since it allowed me to take time in perfecting my base knowledge and exploring new concepts whenever I functionally needed them. \r\n\r\n My everyday responsibilities were as follows : writing frontend code (React, Next.js , HTML, CSS, Netlify + external API's and third-party-packages), backend code (Node.js, Heroku, Express), managing projects, actively working on Github with other developers and customer relations",
+        "skills": "Rest Api, Frontend, Backend, Next.js, React, Node.js",
+        "link": "https://www.itrsq.com/",
+        "linkName": "Learn more about ITRSQ"
+    },
+    {
+        "selected":"summit",
+        "company":"Summit",
+        "duration": "May 2021",
+        "role": "Full Stack Developer",
+        "description": "Full Stack MVP React Native project for Summit Bicycle Coaching App as part of a team.\r\n Along some of my fellow training graduates, we worked 2 weeks on developing an MVP for Mindperf. The apps ambition is to be a personal cycling coach, along with blogs and tips. \r\n\r\n  My everyday responsibilities were as follows : writing frontend code (React Native,Expo,  HTML, CSS, Netlify + external API's and third-party-packages), backend code (Node.js, Heroku, Express),  actively working on Github with other developers",
+        "skills": "Rest Api, Frontend, Backend, React Native, Node.js",
+        "link": "https://apps.apple.com/us/app/summit-cycling/id1571141401",
+        "linkName": "Learn more about the Summit Cycling App"
+    },
+    {
+        "selected":"lereacteur",
+        "company":"Le Réacteur",
+        "duration": "March 2021 to June 2021",
+        "role": "Full Stack Javascript Developer Student",
+        "description": "This is where my web development journey began. In march 2021, I attened Le Réacteur's intensive bootcamp for 3 months in France. 10 hours a day of coding for 3 months and a 9-day graduation exam as well as the opportunity to work with a startup (Summy Cycling). \r\n\r\n  I learned all the basics and more here. I finally graduated, receiving their 'Full Stack Javascript Developer' certification and was on my way to find my first job. This training covered everything from learning the basics of programming languages like Javascript, HTML & CSS, to using them in React frameworks and deploying fully functionning and mordern web applications with dedicated servers and databases.",
+        "skills": "Rest Api, Frontend, Backend, React, React Native, Node.js",
+        "link": "https://www.lereacteur.io/",
+        "linkName": "Learn More about Le Réacteur"
+    }
+
+
+]
