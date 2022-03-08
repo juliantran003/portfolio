@@ -21,7 +21,7 @@ export default function Work() {
   return (
     <section className="work">
       <h1 className="section-header" data-aos="fade-down">
-        Work
+        Work <span>( from Newest to Oldest )</span>
       </h1>
       <section className="work__list">
         {work.map((work, index) => {
@@ -31,6 +31,17 @@ export default function Work() {
               key="work.title"
               data-aos="fade"
             >
+              <div className={`work__img__${findPlacement(index)}`}>
+                <a href={work.link} target="_blank" rel="noreferrer">
+                  <Image
+                    src={work.image}
+                    alt={work.image}
+                    height={work.height}
+                    width={work.width}
+                    layout="responsive"
+                  />
+                </a>
+              </div>
               <h2 data-aos={`fade-${findPlacement(index)}`} data-aos-delay={0}>
                 {work.title}
               </h2>
@@ -73,20 +84,20 @@ export default function Work() {
                   <i className="fa-brands fa-github"></i>
                 </a>
               </div>
-              <div className={`work__img__${findPlacement(index)}`}>
-                <a href={work.link} target="_blank" rel="noreferrer">
-                  <Image
-                    src={work.image}
-                    alt={work.image}
-                    height={work.height}
-                    width={work.width}
-                    layout="responsive"
-                  />
-                </a>
-              </div>
             </div>
           );
         })}
+      </section>
+      <section className="work__more">
+        <h1>Want to see more projects ?</h1>
+        <a
+          href="https://github.com/juliantran003"
+          target="_blank"
+          rel="noreferrer"
+          className="btn-classic"
+        >
+          See more repos <i className="fa-brands fa-github"></i>
+        </a>
       </section>
     </section>
   );

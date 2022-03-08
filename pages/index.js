@@ -21,7 +21,7 @@ export default function Home() {
           <br /> I prefer to work freelance but am always open to new
           opportunities.
         </p>
-        <Link href="/about" passHref>
+        <Link href="/contact" passHref>
           <button
             className="btn-classic"
             data-aos="fade-up"

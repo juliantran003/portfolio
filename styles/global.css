@@ -62,6 +62,15 @@ body {
   margin-bottom: 40px;
 }
 
+.section-header span {
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--clr--txt--tertiary);
+  position: relative;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+
 .section-sub-header {
   font-size: 20px;
   font-weight: 200;
@@ -126,6 +135,24 @@ body {
 
 .header__menu a:hover {
   color: var(--clr--txt--secondary);
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 30vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h1 {
+  color: var(--clr--txt--secondary);
+  font-weight: 200;
+  font-size: 16px;
+  text-align: center;
 }
 
 /* Socials */
@@ -239,18 +266,19 @@ body {
 .burgerMenu__menu__hidden {
   z-index: 1000;
   color: var(--clr--primary);
-  height: 100vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   position: fixed;
-  top: 0%;
-  right: 0%;
+  top: 9%;
+  right: 3%;
   transition: ease-in-out, 0.2s;
-  padding: 0 10%;
+  padding: 2% 3%;
   background-color: white;
   width: fit-content;
+  border-radius: 5px;
 }
 
 .burgerMenu__menu__hidden {
@@ -262,6 +290,7 @@ body {
   top: 3%;
   right: 5%;
   font-size: 28px;
+  color: white;
 }
 
 /* Home */
@@ -401,6 +430,7 @@ body {
   margin: 0 auto;
   padding-top: 10vh;
   padding-bottom: 20vh;
+  overflow: hidden;
 }
 
 .experience__container {
@@ -459,6 +489,14 @@ body {
   padding-bottom: 20vh;
 }
 
+.work__list {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .work__project__right {
   align-items: flex-start;
   text-align: start;
@@ -479,7 +517,6 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  min-height: 30vh;
 
   margin-top: 20px;
   margin-bottom: 80px;
@@ -559,6 +596,20 @@ body {
   text-decoration: none;
 }
 
+.work__more {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.work__more h1 {
+  margin-bottom: 30px;
+  /* text-transform: uppercase; */
+  font-weight: 200;
+}
+
 /* Contact */
 
 .contact {
@@ -567,6 +618,7 @@ body {
   margin: 0 auto;
   padding-top: 10vh;
   padding-bottom: 20vh;
+  overflow: hidden;
 }
 
 .contact__details {
@@ -825,7 +877,7 @@ body {
     width: 100%;
   }
   .contact__form textarea {
-    min-height: 20vh;
+    min-height: 15vh;
   }
 
   .contact__form label {
@@ -850,17 +902,48 @@ body {
   .work {
     width: 90%;
     padding-top: 5vh;
+    overflow: hidden;
+  }
+  .work__list {
+    width: 100%;
+  }
+  .work h2 {
+    width: 100%;
   }
   .work h3 {
-    width: 100%;
+    width: fit-content;
+    max-width: 100%;
   }
 
   .work p {
     width: 100%;
+    font-size: 14px;
+    background: none;
+    text-align: center;
   }
   .work__project__left,
   .work__project__right {
-    border: solid red 2px;
     width: 100%;
+    align-items: center;
+    text-align: center;
+    border: solid var(--clr--secondary) 1px;
+    border-radius: 5px;
+    padding: 5% 5%;
+    margin-bottom: 30px;
+  }
+  .work__project__buttons {
+    width: 100%;
+    justify-content: center;
+  }
+  .work__project__buttons a {
+    margin: 0 5px;
+  }
+  .work__img__left,
+  .work__img__right {
+    width: 100%;
+    position: relative;
+    transform: none;
+    margin-bottom: 20px;
+    filter: grayscale(0%);
   }
 }

@@ -38,7 +38,7 @@ export default function Experience() {
                     {experience.company}
                   </h1>
                   <h2
-                    className="section-info"
+                    className="section-info "
                     data-aos="fade-up"
                     data-aos-delay={50}
                   >
@@ -72,6 +72,7 @@ export default function Experience() {
                     data-aos="fade-up"
                     data-aos-delay={400}
                     rel="noreferrer"
+                    d
                   >
                     {experience.linkName}
                   </a>

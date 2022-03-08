@@ -6,6 +6,7 @@ import Header from "./header";
 import Socials from "./socials";
 import Email from "./email";
 import BurgerMenu from "./burgerMenu";
+import Footer from "./footer";
 
 // Favicon
 import icon from "../public/favicon.ico";
@@ -47,6 +48,7 @@ export default function Layout({ children }) {
       <BurgerMenu />
       <Email />
       <main>{children}</main>
+      <Footer />
     </>
   );
 }
