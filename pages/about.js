@@ -46,8 +46,8 @@ export default function About() {
           further hone and expand my skills as a for the last 8 months (building
           websites and servers from scratch).
           <br />
-          <br />I am now looking for my next opportunity, preferably as{" "}
-          <span>Freelance</span>, to see where my journey takes me.
+          {/* <br />I am now looking for my next opportunity, preferably as{" "}
+          <span>Freelance</span>, to see where my journey takes me. */}
         </p>
         <Link href="/about" passHref>
           <button

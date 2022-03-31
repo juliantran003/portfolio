@@ -18,8 +18,8 @@ export default function Home() {
         <p data-aos="fade-up" data-aos-delay={300}>
           I build modern websites using <span>React</span> and custom servers
           with <span>Node.js</span>.
-          <br /> I prefer to work freelance but am always open to new
-          opportunities.
+          {/* <br /> I prefer to work freelance but am always open to new
+          opportunities. */}
         </p>
         <Link href="/contact" passHref>
           <button
