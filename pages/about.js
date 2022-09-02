@@ -43,7 +43,7 @@ export default function About() {
           <br />
           Shortly after graduating from my training, I joined a small team in a
           company called <span>ITRSQ </span> where I had the opportunity to
-          further hone and expand my skills as a for the last 8 months (building
+          further hone and expand my skills as a for the last year (building
           websites and servers from scratch).
           <br />
           {/* <br />I am now looking for my next opportunity, preferably as{" "}
